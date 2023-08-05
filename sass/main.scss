@@ -1,133 +1,235 @@
-        @mixin reperageBox () {
-            border: 1px solid rgb(167, 194, 48);
-            background-color: red;
-        }
-        
-        @mixin centrerPhoto {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        @mixin DoubleboiteenUne {
-            height: 100%;
-            width: 200px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            color: black;
-            background-color: rgb(65, 94, 65);
-        }
-        
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
-        header {
-            background-color: rgb(65, 94, 65);
-            width: 100%;
-            height: 100%;
-            .logo {
-                background-image: url(../images/back-images/desktop-wallpaper-restaurant-png-transparent-restaurant-png-restaurants.jpg);
-                display: flex;
-                height: 260px;
-                width: 100%;
-                justify-content: center;
-                div {
-                    background-color: rgb(20, 19, 19);
-                    height: 100%;
-                    width: 600px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    border-radius: 5px;
-                    color: white;
-                }
-                &__images {
-                    margin: 17px;
-                    padding: 15px;
-                    height: 300px;
-                    z-index: 2;
-                    @include centrerPhoto();
-                    img {
-                        height: 100%;
-                        width: 100%;
-                    }
-                }
-            }
-            .loc_auth {
-                margin-top: 150px;
-                z-index: 1;
-                margin: 9px;
-                height: 50px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                div {
-                    height: 100%;
-                    width: 500px;
-                    color: white;
-                }
-                .loc {
-                    @include DoubleboiteenUne();
-                    padding-top: 5px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    .photo {
-                        @include centrerPhoto();
-                        img {
-                            height: 55px;
-                            width: 55px;
-                        }
-                    }
-                    .ecris {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        color: rgb(255, 253, 253);
-                        font-size: 25px
-                    }
-                }
-            }
-        }
-        
-        .auth {
-            @include DoubleboiteenUne();
-            padding-top: 5px;
-        }
-        
-        .SingIn {
-            width: 500px;
-            @include centrerPhoto();
-            img {
-                height: 55px;
-                width: 55px;
-            }
-        }
-        
-        .SingUp {
-            @include centrerPhoto();
-            img {
-                height: 55px;
-                width: 55px;
-            }
-        }
-        
-        nav {
-            padding-bottom: 10px;
-            height: 40px;
-            background-color: black;
-            align-items: center;
-            ul {
-                padding-bottom: 15px;
-                list-style-type: none;
-                display: flex;
-                justify-content: space-around;
-                font-size: 30px;
-                color: white;
-                border: 4px double rgb(65, 94, 65);
-                background-color: black;
-            }
-        }
+                                                                                @mixin reperageBox () {
+                                                                                    border: 1px solid rgb(167, 194, 48);
+                                                                                    background-color: rgb(221, 42, 42);
+                                                                                }
+                                                                                
+                                                                                @mixin centrerPhoto {
+                                                                                    display: flex;
+                                                                                    justify-content: center;
+                                                                                    align-items: center;
+                                                                                }
+                                                                                
+                                                                                @mixin DoubleboiteenUne {
+                                                                                    height: 100%;
+                                                                                    width: 200px;
+                                                                                    display: flex;
+                                                                                    justify-content: space-around;
+                                                                                    align-items: center;
+                                                                                    color: black;
+                                                                                    background-color: rgb(65, 94, 65);
+                                                                                }
+                                                                                
+                                                                                @mixin dispositionBoiteDescription {
+                                                                                    height: 100%;
+                                                                                    width: 20%;
+                                                                                    display: flex;
+                                                                                    justify-content: center;
+                                                                                }
+                                                                                
+                                                                                @mixin articleAside {
+                                                                                    display: flex;
+                                                                                    flex-direction: column;
+                                                                                    article {
+                                                                                        background-color: rgb(65, 94, 65);
+                                                                                        height: 70%;
+                                                                                        width: 100%;
+                                                                                        display: flex;
+                                                                                        justify-content: center;
+                                                                                        align-items: center;
+                                                                                        img {
+                                                                                            height: 100px;
+                                                                                            width: 100px;
+                                                                                        }
+                                                                                    }
+                                                                                    aside {
+                                                                                        display: flex;
+                                                                                        justify-content: center;
+                                                                                        align-items: center;
+                                                                                        height: 30%;
+                                                                                        width: 100%;
+                                                                                        background-color: rgb(65, 94, 65);
+                                                                                        text-align: center;
+                                                                                        color: rgb(255, 255, 255)
+                                                                                    }
+                                                                                    @include dispositionBoiteDescription();
+                                                                                    background-color: black;
+                                                                                }
+                                                                                
+                                                                                body {
+                                                                                    margin: 0;
+                                                                                    padding: 0;
+                                                                                }
+                                                                                
+                                                                                header {
+                                                                                    background-color: rgb(65, 94, 65);
+                                                                                    width: 100%;
+                                                                                    height: 100%;
+                                                                                    z-index: 5;
+                                                                                    .logo {
+                                                                                        background-image: url(../images/back-images/desktop-wallpaper-restaurant-png-transparent-restaurant-png-restaurants.jpg);
+                                                                                        display: flex;
+                                                                                        height: 260px;
+                                                                                        width: 100%;
+                                                                                        justify-content: center;
+                                                                                        div {
+                                                                                            background-color: rgb(20, 19, 19);
+                                                                                            height: 100%;
+                                                                                            width: 600px;
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                            align-items: center;
+                                                                                            border-radius: 5px;
+                                                                                            color: white;
+                                                                                        }
+                                                                                        &__images {
+                                                                                            margin: 17px;
+                                                                                            padding: 15px;
+                                                                                            height: 300px;
+                                                                                            z-index: 2;
+                                                                                            @include centrerPhoto();
+                                                                                            img {
+                                                                                                height: 100%;
+                                                                                                width: 100%;
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                    .loc_auth {
+                                                                                        margin-top: 150px;
+                                                                                        z-index: 1;
+                                                                                        margin: 9px;
+                                                                                        height: 40px;
+                                                                                        display: flex;
+                                                                                        align-items: center;
+                                                                                        justify-content: space-between;
+                                                                                        div {
+                                                                                            height: 100%;
+                                                                                            width: 500px;
+                                                                                            color: white;
+                                                                                        }
+                                                                                        .loc {
+                                                                                            @include DoubleboiteenUne();
+                                                                                            padding-top: 5px;
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                            align-items: center;
+                                                                                            .photo {
+                                                                                                @include centrerPhoto();
+                                                                                                img {
+                                                                                                    height: 55px;
+                                                                                                    width: 55px;
+                                                                                                }
+                                                                                            }
+                                                                                            .ecris {
+                                                                                                display: flex;
+                                                                                                justify-content: center;
+                                                                                                align-items: center;
+                                                                                                color: rgb(255, 253, 253);
+                                                                                                font-size: 25px
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                                
+                                                                                .auth {
+                                                                                    @include DoubleboiteenUne();
+                                                                                    padding-top: 5px;
+                                                                                }
+                                                                                
+                                                                                .SingIn {
+                                                                                    width: 500px;
+                                                                                    @include centrerPhoto();
+                                                                                    img {
+                                                                                        height: 55px;
+                                                                                        width: 55px;
+                                                                                    }
+                                                                                }
+                                                                                
+                                                                                .SingUp {
+                                                                                    @include centrerPhoto();
+                                                                                    img {
+                                                                                        height: 55px;
+                                                                                        width: 55px;
+                                                                                    }
+                                                                                }
+                                                                                
+                                                                                nav {
+                                                                                    height: 40px;
+                                                                                    background-color: black;
+                                                                                    align-items: center;
+                                                                                    width: 100%;
+                                                                                    ul {
+                                                                                        list-style-type: none;
+                                                                                        display: flex;
+                                                                                        justify-content: space-around;
+                                                                                        font-size: 30px;
+                                                                                        color: white;
+                                                                                        border: 4px double rgb(65, 94, 65);
+                                                                                        background-color: black;
+                                                                                    }
+                                                                                }
+                                                                                
+                                                                                .presentation {
+                                                                                    height: 900px;
+                                                                                    display: flex;
+                                                                                    flex-direction: column;
+                                                                                    justify-content: center;
+                                                                                    align-items: center;
+                                                                                    &__debut {
+                                                                                        width: 100%;
+                                                                                        height: 700px;
+                                                                                        display: flex;
+                                                                                        .text {
+                                                                                            height: 700px;
+                                                                                            background-color: rgb(2, 31, 13);
+                                                                                            width: 30%;
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                            align-items: center;
+                                                                                            div {
+                                                                                                color: white;
+                                                                                                background-color: rgb(34, 24, 24);
+                                                                                                height: 60%;
+                                                                                                width: 75%;
+                                                                                                border-bottom-right-radius: 100px;
+                                                                                                border-top-right-radius: 80px;
+                                                                                                border-bottom-left-radius: 80px;
+                                                                                                display: flex;
+                                                                                                justify-content: center;
+                                                                                                align-items: center;
+                                                                                                box-shadow: 15px 15px 15px 15px black;
+                                                                                            }
+                                                                                            h1 {
+                                                                                                text-align: center;
+                                                                                            }
+                                                                                        }
+                                                                                        .text-images {
+                                                                                            height: 700px;
+                                                                                            background-color: blue;
+                                                                                            width: 70%;
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                            align-items: center;
+                                                                                            img {
+                                                                                                height: 700px;
+                                                                                                width: 100%;
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                    section {
+                                                                                        background-color: rgb(65, 94, 65);
+                                                                                        width: 100%;
+                                                                                        height: 200px;
+                                                                                        display: flex;
+                                                                                        justify-content: space-around;
+                                                                                        align-items: center;
+                                                                                        .first {
+                                                                                            @include articleAside();
+                                                                                        }
+                                                                                        .second {
+                                                                                            @include articleAside();
+                                                                                        }
+                                                                                        .end {
+                                                                                            @include articleAside();
+                                                                                        }
+                                                                                    }
+                                                                                }

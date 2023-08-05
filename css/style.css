@@ -7,6 +7,7 @@ header {
   background-color: rgb(65, 94, 65);
   width: 100%;
   height: 100%;
+  z-index: 5;
 }
 header .logo {
   background-image: url(../images/back-images/desktop-wallpaper-restaurant-png-transparent-restaurant-png-restaurants.jpg);
@@ -42,7 +43,7 @@ header .loc_auth {
   margin-top: 150px;
   z-index: 1;
   margin: 9px;
-  height: 50px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -115,13 +116,12 @@ header .loc_auth .loc .ecris {
 }
 
 nav {
-  padding-bottom: 10px;
   height: 40px;
   background-color: black;
   align-items: center;
+  width: 100%;
 }
 nav ul {
-  padding-bottom: 15px;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -129,6 +129,156 @@ nav ul {
   color: white;
   border: 4px double rgb(65, 94, 65);
   background-color: black;
+}
+
+.presentation {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.presentation__debut {
+  width: 100%;
+  height: 700px;
+  display: flex;
+}
+.presentation__debut .text {
+  height: 700px;
+  background-color: rgb(2, 31, 13);
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation__debut .text div {
+  color: white;
+  background-color: rgb(34, 24, 24);
+  height: 60%;
+  width: 75%;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 15px 15px 15px 15px black;
+}
+.presentation__debut .text h1 {
+  text-align: center;
+}
+.presentation__debut .text-images {
+  height: 700px;
+  background-color: blue;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation__debut .text-images img {
+  height: 700px;
+  width: 100%;
+}
+.presentation section {
+  background-color: rgb(65, 94, 65);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.presentation section .first {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.presentation section .first article {
+  background-color: rgb(65, 94, 65);
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation section .first article img {
+  height: 100px;
+  width: 100px;
+}
+.presentation section .first aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+  background-color: rgb(65, 94, 65);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.presentation section .second {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.presentation section .second article {
+  background-color: rgb(65, 94, 65);
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation section .second article img {
+  height: 100px;
+  width: 100px;
+}
+.presentation section .second aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+  background-color: rgb(65, 94, 65);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.presentation section .end {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.presentation section .end article {
+  background-color: rgb(65, 94, 65);
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation section .end article img {
+  height: 100px;
+  width: 100px;
+}
+.presentation section .end aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+  background-color: rgb(65, 94, 65);
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 /*# sourceMappingURL=style.css.map */
