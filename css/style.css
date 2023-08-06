@@ -48,6 +48,9 @@ header .loc_auth {
   align-items: center;
   justify-content: space-between;
 }
+header .loc_auth img:hover {
+  opacity: 0.5;
+}
 header .loc_auth div {
   height: 100%;
   width: 500px;
@@ -130,6 +133,9 @@ nav ul {
   border: 4px double rgb(65, 94, 65);
   background-color: black;
 }
+nav li:hover {
+  opacity: 0.6;
+}
 
 .presentation {
   height: 900px;
@@ -164,6 +170,9 @@ nav ul {
   align-items: center;
   box-shadow: 15px 15px 15px 15px black;
 }
+.presentation__debut .text div:hover {
+  box-shadow: 25px 25px 25px 25px rgb(229, 233, 231);
+}
 .presentation__debut .text h1 {
   text-align: center;
 }
@@ -179,7 +188,7 @@ nav ul {
   height: 700px;
   width: 100%;
 }
-.presentation section {
+.presentation .description {
   background-color: rgb(65, 94, 65);
   width: 100%;
   height: 200px;
@@ -187,7 +196,7 @@ nav ul {
   justify-content: space-around;
   align-items: center;
 }
-.presentation section .first {
+.presentation .description .first {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -196,7 +205,7 @@ nav ul {
   justify-content: center;
   background-color: black;
 }
-.presentation section .first article {
+.presentation .description .first article {
   background-color: rgb(65, 94, 65);
   height: 70%;
   width: 100%;
@@ -204,11 +213,14 @@ nav ul {
   justify-content: center;
   align-items: center;
 }
-.presentation section .first article img {
+.presentation .description .first article img {
   height: 100px;
   width: 100px;
 }
-.presentation section .first aside {
+.presentation .description .first article img:hover {
+  opacity: 0.5;
+}
+.presentation .description .first aside {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,7 +230,7 @@ nav ul {
   text-align: center;
   color: rgb(255, 255, 255);
 }
-.presentation section .second {
+.presentation .description .second {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -227,7 +239,7 @@ nav ul {
   justify-content: center;
   background-color: black;
 }
-.presentation section .second article {
+.presentation .description .second article {
   background-color: rgb(65, 94, 65);
   height: 70%;
   width: 100%;
@@ -235,11 +247,14 @@ nav ul {
   justify-content: center;
   align-items: center;
 }
-.presentation section .second article img {
+.presentation .description .second article img {
   height: 100px;
   width: 100px;
 }
-.presentation section .second aside {
+.presentation .description .second article img:hover {
+  opacity: 0.5;
+}
+.presentation .description .second aside {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,7 +264,7 @@ nav ul {
   text-align: center;
   color: rgb(255, 255, 255);
 }
-.presentation section .end {
+.presentation .description .end {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -258,7 +273,7 @@ nav ul {
   justify-content: center;
   background-color: black;
 }
-.presentation section .end article {
+.presentation .description .end article {
   background-color: rgb(65, 94, 65);
   height: 70%;
   width: 100%;
@@ -266,11 +281,14 @@ nav ul {
   justify-content: center;
   align-items: center;
 }
-.presentation section .end article img {
+.presentation .description .end article img {
   height: 100px;
   width: 100px;
 }
-.presentation section .end aside {
+.presentation .description .end article img:hover {
+  opacity: 0.5;
+}
+.presentation .description .end aside {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -279,6 +297,393 @@ nav ul {
   background-color: rgb(65, 94, 65);
   text-align: center;
   color: rgb(255, 255, 255);
+}
+
+.cuisine {
+  border: 1px solid rgb(7, 7, 7);
+  background-color: rgb(221, 42, 42);
+  background-color: aqua;
+  height: 2200px;
+  background-image: url(../images/back-images-nourriture/8899cce92b409dc879368ac27a78b50b.jpg);
+}
+.cuisine .bloc_afrique {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cuisine .titre {
+  background-color: black;
+}
+.cuisine .titre h2 {
+  text-align: center;
+  color: white;
+}
+.cuisine .africain {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cuisine .africain div {
+  display: flex;
+  height: 300px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  justify-content: center;
+}
+.cuisine .africain div article {
+  background-color: rgb(12, 155, 12);
+  height: 70%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.cuisine .africain div img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.cuisine .africain div img:hover {
+  opacity: 0.5;
+}
+.cuisine .africain div button {
+  height: 30px;
+  width: 120px;
+  font-size: 16px;
+}
+.cuisine .africain div button:hover {
+  opacity: 0.5;
+}
+.cuisine .africain div button:visited {
+  opacity: 0.7;
+}
+.cuisine .africain div aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.cuisine .bloc_crepes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cuisine .crepes {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cuisine .crepes div {
+  display: flex;
+  height: 300px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  justify-content: center;
+}
+.cuisine .crepes div article {
+  background-color: rgb(12, 155, 12);
+  height: 70%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.cuisine .crepes div img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.cuisine .crepes div img:hover {
+  opacity: 0.5;
+}
+.cuisine .crepes div button {
+  height: 30px;
+  width: 120px;
+  font-size: 16px;
+}
+.cuisine .crepes div button:hover {
+  opacity: 0.5;
+}
+.cuisine .crepes div button:visited {
+  opacity: 0.7;
+}
+.cuisine .crepes div aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.cuisine .bloc_brochettes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cuisine .brochettes {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cuisine .brochettes div {
+  display: flex;
+  height: 300px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  justify-content: center;
+}
+.cuisine .brochettes div article {
+  background-color: rgb(12, 155, 12);
+  height: 70%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.cuisine .brochettes div img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.cuisine .brochettes div img:hover {
+  opacity: 0.5;
+}
+.cuisine .brochettes div button {
+  height: 30px;
+  width: 120px;
+  font-size: 16px;
+}
+.cuisine .brochettes div button:hover {
+  opacity: 0.5;
+}
+.cuisine .brochettes div button:visited {
+  opacity: 0.7;
+}
+.cuisine .brochettes div aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.cuisine .bloc_orders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cuisine .orders {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cuisine .orders div {
+  display: flex;
+  height: 300px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  justify-content: center;
+}
+.cuisine .orders div article {
+  background-color: rgb(12, 155, 12);
+  height: 70%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.cuisine .orders div img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.cuisine .orders div img:hover {
+  opacity: 0.5;
+}
+.cuisine .orders div button {
+  height: 30px;
+  width: 120px;
+  font-size: 16px;
+}
+.cuisine .orders div button:hover {
+  opacity: 0.5;
+}
+.cuisine .orders div button:visited {
+  opacity: 0.7;
+}
+.cuisine .orders div aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.cuisine .bloc-spaghetti {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cuisine .spaghetti {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cuisine .spaghetti div {
+  display: flex;
+  height: 300px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  justify-content: center;
+}
+.cuisine .spaghetti div article {
+  background-color: rgb(12, 155, 12);
+  height: 70%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.cuisine .spaghetti div img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.cuisine .spaghetti div img:hover {
+  opacity: 0.5;
+}
+.cuisine .spaghetti div button {
+  height: 30px;
+  width: 120px;
+  font-size: 16px;
+}
+.cuisine .spaghetti div button:hover {
+  opacity: 0.5;
+}
+.cuisine .spaghetti div button:visited {
+  opacity: 0.7;
+}
+.cuisine .spaghetti div aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.cuisine .remerciements {
+  background-color: rgb(2, 31, 13);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cuisine .remerciements div {
+  background-color: rgb(34, 24, 24);
+  height: 60%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-top-left-radius: 80px;
+  box-shadow: 20px 20px 20px 20px black;
+}
+.cuisine .remerciements div:hover {
+  box-shadow: 30px 30px 30px 30px rgb(229, 233, 231);
+}
+.cuisine .remerciements h2 {
+  text-align: center;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
