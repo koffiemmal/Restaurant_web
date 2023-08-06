@@ -689,7 +689,7 @@ nav li:hover {
 }
 
 .from_remerciements {
-  height: 1380px;
+  height: 1250px;
   border: 1px solid rgb(7, 7, 7);
   background-color: rgb(221, 42, 42);
   display: flex;
@@ -697,7 +697,9 @@ nav li:hover {
 }
 .from_remerciements .formulaire {
   height: 70%;
-  background-color: aqua;
+  background-color: rgb(65, 94, 65);
+  display: flex;
+  justify-content: center;
 }
 .from_remerciements .remerciementsForm {
   background-color: rgb(2, 31, 13);
@@ -725,6 +727,41 @@ nav li:hover {
 .from_remerciements .remerciementsForm h2 {
   text-align: center;
   color: white;
+}
+.from_remerciements form {
+  background-color: rgb(65, 94, 65);
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.from_remerciements form table {
+  width: 100%;
+  height: 590px;
+  background-color: rgb(34, 24, 24);
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 80px;
+  box-shadow: 20px 20px 20px 20px black;
+  color: white;
+}
+.from_remerciements form table:hover {
+  box-shadow: 25px 25px 25px 25px rgb(229, 233, 231);
+}
+.from_remerciements form td {
+  font-size: 25px;
+}
+.from_remerciements form input {
+  font-size: 25px;
+}
+.from_remerciements form select {
+  font-size: 25px;
+}
+.from_remerciements form button {
+  font-size: 25px;
+  display: flex;
+}
+.from_remerciements form .buttons {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
