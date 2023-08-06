@@ -116,6 +116,22 @@ header .loc_auth .loc .ecris {
   height: 55px;
   width: 55px;
 }
+.SingUp button {
+  width: 100px;
+  font-size: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: gray;
+}
+.SingUp button p {
+  text-align: center;
+  font-size: 15px;
+}
+.SingUp button:hover {
+  color: black;
+}
 
 nav {
   height: 40px;
@@ -138,8 +154,8 @@ nav li:hover {
 
 .presentation {
   height: 900px;
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(55, 66, 55);
