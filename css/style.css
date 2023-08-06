@@ -4,13 +4,14 @@ body {
 }
 
 header {
-  background-color: rgb(65, 94, 65);
+  background-image: url(../images/back-images/wp1874175.jpg);
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   z-index: 5;
+  background-size: 2000px 390px;
 }
 header .logo {
-  background-image: url(../images/back-images/desktop-wallpaper-restaurant-png-transparent-restaurant-png-restaurants.jpg);
   display: flex;
   height: 260px;
   width: 100%;
@@ -63,7 +64,6 @@ header .loc_auth .loc {
   justify-content: space-around;
   align-items: center;
   color: black;
-  background-color: rgb(65, 94, 65);
   padding-top: 5px;
   display: flex;
   justify-content: center;
@@ -93,7 +93,6 @@ header .loc_auth .loc .ecris {
   justify-content: space-around;
   align-items: center;
   color: black;
-  background-color: rgb(65, 94, 65);
   padding-top: 5px;
 }
 
@@ -143,6 +142,7 @@ nav li:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(55, 66, 55);
 }
 .presentation__debut {
   width: 100%;
@@ -151,7 +151,7 @@ nav li:hover {
 }
 .presentation__debut .text {
   height: 700px;
-  background-color: rgb(2, 31, 13);
+  background-color: rgb(55, 66, 55);
   width: 30%;
   display: flex;
   justify-content: center;
@@ -178,15 +178,17 @@ nav li:hover {
 }
 .presentation__debut .text-images {
   height: 700px;
-  background-color: blue;
   width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom-left-radius: 40px;
 }
 .presentation__debut .text-images img {
   height: 700px;
   width: 100%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
 }
 .presentation .description {
   background-color: rgb(65, 94, 65);
@@ -195,6 +197,8 @@ nav li:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-top: 5px double black;
+  border-bottom: 5px double black;
 }
 .presentation .description .first {
   display: flex;
@@ -300,11 +304,8 @@ nav li:hover {
 }
 
 .cuisine {
-  border: 1px solid rgb(7, 7, 7);
-  background-color: rgb(221, 42, 42);
-  background-color: aqua;
-  height: 2200px;
-  background-image: url(../images/back-images-nourriture/8899cce92b409dc879368ac27a78b50b.jpg);
+  background-color: rgb(255, 255, 255);
+  height: 2190px;
 }
 .cuisine .bloc_afrique {
   display: flex;
@@ -312,11 +313,12 @@ nav li:hover {
   align-items: center;
 }
 .cuisine .titre {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 .cuisine .titre h2 {
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
 }
 .cuisine .africain {
   background-color: black;
@@ -336,7 +338,7 @@ nav li:hover {
   width: 20%;
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   justify-content: center;
 }
 .cuisine .africain div article {
@@ -405,7 +407,7 @@ nav li:hover {
   width: 20%;
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   justify-content: center;
 }
 .cuisine .crepes div article {
@@ -474,7 +476,7 @@ nav li:hover {
   width: 20%;
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   justify-content: center;
 }
 .cuisine .brochettes div article {
@@ -543,7 +545,7 @@ nav li:hover {
   width: 20%;
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   justify-content: center;
 }
 .cuisine .orders div article {
@@ -612,7 +614,7 @@ nav li:hover {
   width: 20%;
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   justify-content: center;
 }
 .cuisine .spaghetti div article {
