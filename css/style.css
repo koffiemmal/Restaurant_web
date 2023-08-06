@@ -662,7 +662,7 @@ nav li:hover {
 }
 .cuisine .remerciements {
   background-color: rgb(2, 31, 13);
-  height: 400px;
+  height: 415px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -684,6 +684,45 @@ nav li:hover {
   box-shadow: 30px 30px 30px 30px rgb(229, 233, 231);
 }
 .cuisine .remerciements h2 {
+  text-align: center;
+  color: white;
+}
+
+.from_remerciements {
+  height: 1380px;
+  border: 1px solid rgb(7, 7, 7);
+  background-color: rgb(221, 42, 42);
+  display: flex;
+  flex-direction: column;
+}
+.from_remerciements .formulaire {
+  height: 70%;
+  background-color: aqua;
+}
+.from_remerciements .remerciementsForm {
+  background-color: rgb(2, 31, 13);
+  height: 415px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.from_remerciements .remerciementsForm div {
+  background-color: rgb(34, 24, 24);
+  height: 60%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-top-left-radius: 80px;
+  box-shadow: 20px 20px 20px 20px black;
+}
+.from_remerciements .remerciementsForm div:hover {
+  box-shadow: 30px 30px 30px 30px rgb(229, 233, 231);
+}
+.from_remerciements .remerciementsForm h2 {
   text-align: center;
   color: white;
 }
