@@ -130,7 +130,7 @@ header .loc_auth .loc .ecris {
   font-size: 15px;
 }
 .SingUp button:hover {
-  color: black;
+  color: rgb(5, 58, 9);
 }
 
 nav {
@@ -338,7 +338,7 @@ nav li {
 
 .cuisine {
   background-color: rgb(255, 255, 255);
-  height: 2190px;
+  height: 2495px;
 }
 .cuisine .bloc_afrique {
   display: flex;
@@ -377,7 +377,8 @@ nav li {
   justify-content: center;
 }
 .cuisine .africain div article {
-  background-color: rgb(12, 155, 12);
+  padding-left: 50px;
+  background-color: rgb(0, 0, 0);
   height: 70%;
   width: 70%;
   display: flex;
@@ -394,6 +395,7 @@ nav li {
   border-bottom-right-radius: 100px;
   border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
+  justify-content: center;
 }
 .cuisine .africain div img:hover {
   opacity: 0.5;
@@ -458,7 +460,8 @@ nav li {
   justify-content: center;
 }
 .cuisine .crepes div article {
-  background-color: rgb(12, 155, 12);
+  padding-left: 50px;
+  background-color: rgb(0, 0, 0);
   height: 70%;
   width: 70%;
   display: flex;
@@ -475,6 +478,7 @@ nav li {
   border-bottom-right-radius: 100px;
   border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
+  justify-content: center;
 }
 .cuisine .crepes div img:hover {
   opacity: 0.5;
@@ -539,7 +543,8 @@ nav li {
   justify-content: center;
 }
 .cuisine .brochettes div article {
-  background-color: rgb(12, 155, 12);
+  padding-left: 50px;
+  background-color: rgb(0, 0, 0);
   height: 70%;
   width: 70%;
   display: flex;
@@ -556,6 +561,7 @@ nav li {
   border-bottom-right-radius: 100px;
   border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
+  justify-content: center;
 }
 .cuisine .brochettes div img:hover {
   opacity: 0.5;
@@ -620,7 +626,8 @@ nav li {
   justify-content: center;
 }
 .cuisine .orders div article {
-  background-color: rgb(12, 155, 12);
+  padding-left: 50px;
+  background-color: rgb(0, 0, 0);
   height: 70%;
   width: 70%;
   display: flex;
@@ -637,6 +644,7 @@ nav li {
   border-bottom-right-radius: 100px;
   border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
+  justify-content: center;
 }
 .cuisine .orders div img:hover {
   opacity: 0.5;
@@ -701,7 +709,8 @@ nav li {
   justify-content: center;
 }
 .cuisine .spaghetti div article {
-  background-color: rgb(12, 155, 12);
+  padding-left: 50px;
+  background-color: rgb(0, 0, 0);
   height: 70%;
   width: 70%;
   display: flex;
@@ -718,6 +727,7 @@ nav li {
   border-bottom-right-radius: 100px;
   border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
+  justify-content: center;
 }
 .cuisine .spaghetti div img:hover {
   opacity: 0.5;
@@ -784,7 +794,7 @@ nav li {
 }
 
 .from_remerciements {
-  height: 1250px;
+  height: 1260px;
   border: 1px solid rgb(7, 7, 7);
   background-color: rgb(221, 42, 42);
   display: flex;
@@ -870,6 +880,47 @@ nav li {
 .from_remerciements form label {
   font-family: "Bebas Neue", sans-serif;
   font-family: "Lobster Two", cursive;
+}
+
+footer {
+  background-color: black;
+  height: 75px;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Lobster", cursive;
+  font-family: "Lobster Two", cursive;
+  font-family: "Nanum Pen Script", cursive;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div div img {
+  height: 55px;
+  width: 55px;
+}
+footer .social {
+  background-color: red;
+}
+footer .ptit_logo {
+  background-color: aqua;
+}
+footer .ecriture {
+  background-color: bisque;
 }
 
 /*# sourceMappingURL=style.css.map */
