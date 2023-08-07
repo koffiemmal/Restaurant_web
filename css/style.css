@@ -149,7 +149,8 @@ nav ul {
   background-color: black;
 }
 nav li:hover {
-  opacity: 0.6;
+  opacity: 0.9;
+  color: rgb(55, 66, 55);
 }
 nav li {
   font-family: "Bebas Neue", sans-serif;
@@ -775,7 +776,7 @@ nav li {
   box-shadow: 20px 20px 20px 20px black;
 }
 .cuisine .remerciements div:hover {
-  box-shadow: 30px 30px 30px 30px rgb(229, 233, 231);
+  box-shadow: 22px 22px 22px 22px rgb(229, 233, 231);
 }
 .cuisine .remerciements h2 {
   text-align: center;
@@ -816,7 +817,7 @@ nav li {
   box-shadow: 20px 20px 20px 20px black;
 }
 .from_remerciements .remerciementsForm div:hover {
-  box-shadow: 30px 30px 30px 30px rgb(229, 233, 231);
+  box-shadow: 22px 22px 22px 22px rgb(229, 233, 231);
 }
 .from_remerciements .remerciementsForm h2 {
   text-align: center;
